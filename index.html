@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Mandelbrot</title>
+    </head>
+
+    <body>
+		<label>Largeur</label> : <input type="text" value="600" id="l" size="5" />
+        <label>Hauteur</label> : <input type="text" value="600" id="h" size="5" />
+        <label>Itérations</label> : <input type="text" value="30" id="i" size="5" />
+        <label>Zoom</label> : <input type="text" value="2" id="z" size="5" />
+        <label>Couleur</label> : <select name="couleur" id="couleur">
+           <option value="turquoise">Turquoise</option>
+           <option value="bleu">Bleu Sombre</option>
+           <option value="vert">Vert Sombre</option>
+           <option value="rouge">Rouge Sombre</option>
+       </select>
+        <input type="button" value="Rendu" onclick="draw();" />
+
+        <br />
+
+		<canvas id="game" width="800px" height="800px">Utilisez un navigateur plus récent</canvas>
+		
+		<script src="game.js" /></script>
+    </body>
+</html>
