@@ -1,8 +1,25 @@
 body {
 	width: 100%;
 	text-align: center;
+
+	font-family: Helvetica, Arial, serif;
 }
 canvas {
 	display: block;
 	margin: auto;
+	margin-top: 100px;
+}
+
+#haut {
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+	color: white;
+	background-color: black;
+
+	-webkit-box-shadow: 0px 3px 10px rgba(50, 50, 50, 0.45);
+	-moz-box-shadow:    0px 3px 10px rgba(50, 50, 50, 0.45);
+	box-shadow:         0px 3px 10px rgba(50, 50, 50, 0.45);
 }
